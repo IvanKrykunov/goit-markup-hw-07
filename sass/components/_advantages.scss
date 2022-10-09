@@ -1,0 +1,44 @@
+.container-cection2 {
+}
+
+.ul-2 .item + .item {
+  margin-left: 30px;
+}
+.bg-icon {
+  width: 270px;
+  height: 120px;
+  background-color: var(--background-secondary-color);
+  border-radius: 4px;
+  margin-bottom: 30px;
+  padding: 25px 100px;
+}
+.icon-s2 {
+  width: 70px;
+  height: 70px;
+}
+.ul-2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.ul-2 .item {
+  width: 270px;
+}
+.cection-2 {
+  background: var(--background-main-color);
+}
+.cection-h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.paragraph-s2 {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-text-color);
+}
