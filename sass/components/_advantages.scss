@@ -1,10 +1,21 @@
-.container-cection2 {
+.cection-advantages {
+  background: var(--background-main-color);
 }
 
-.ul-2 .item + .item {
+.cection-advantages__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cection-advantages__list .cection-advantages__item + .cection-advantages__item {
   margin-left: 30px;
 }
-.bg-icon {
+
+.cection-advantages__list .cection-advantages__item {
+  width: 270px;
+}
+
+.cection-advantages__background {
   width: 270px;
   height: 120px;
   background-color: var(--background-secondary-color);
@@ -12,21 +23,13 @@
   margin-bottom: 30px;
   padding: 25px 100px;
 }
-.icon-s2 {
+
+.cection-advantages__icon {
   width: 70px;
   height: 70px;
 }
-.ul-2 {
-  display: flex;
-  flex-wrap: wrap;
-}
-.ul-2 .item {
-  width: 270px;
-}
-.cection-2 {
-  background: var(--background-main-color);
-}
-.cection-h3 {
+
+.cection-advantages__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -35,7 +38,8 @@
 
   color: #212121;
 }
-.paragraph-s2 {
+
+.cection-advantages__paragraph {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
